@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noblegarden: Война Чёрной Горы</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header container-fluid flex">
+        <div class="header__container flex">
+            <h1 class="header__title">
+                ВОЙНА ЧЁРНОЙ ГОРЫ
+            </h1>
+            <p class="header__descr section__descr">
+                Lorem Ipsum - это текст-"рыба",
+                часто используемый в печати и вэб-дизайне.
+                Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                с начала XVI века.
+                В то время некий безымянный печатник создал большую
+                коллекцию размеров и форм шрифтов,
+                используя
+            </p>
+            <button onclick="window.open('https://noblegarden.net/article/149')" class="header__btn btn-reset btn">
+                НАЧАТЬ ИГРАТЬ
+            </button>
+        </div>
+    </header>
+    <section class="section__story container-fluid">
+        <div class="story__container">
+            <div class="story__head flex">
+                <h2 class="story__head-title section__title">
+                    СЮЖЕТ
+                </h2>
+                <p class="story__head-descr section__descr">
+                    В сердце Восточных Королевств под тлеющей горой коварно
+                    набирают силу три ужасные угрозы:
+                    Тёмная Орда Ренда Чернорука, клан Чёрного Железа и
+                    древнее огненное зло, которое способно оживить камень и
+                    воскресить древних монстров. Война неизбежна,
+                    и судьба обитателей Красногорья и Каз'Модана под угрозой.
+                </p>
+            </div>
+            <ul class="story__faction row list-reset">
+                <li class="story__faction-card col-md-6 col-sm-12">
+                    <img  class="story__faction-card-img" src="img/story__alliance.png" alt="Альянс">
+                    <h3 class="story__faction-card-title">
+                        Альянс
+                    </h3>
+                    <p class="story__faction-card-descr section__descr">
+                        Король Вариан Ринн вернулся в полуразрушенное королевство и начал наводить в нём порядок.
+                        Дворяне, что потворствовали заговору Катраны Престор,
+                        были лишены своих придворных должностей
+                        и сосланы в родовые поместья, в то время как предатели,
+                        что помогали заговорщице были прилюдно казнены.
+                        Одним из самых уязвимых мест королевства оставался регион
+                        Красногорья. В связи с участившимися налётами орков
+                        Чёрной Горы на земли Штормграда, а также на фоне слухов
+                        о похищении Мойры Бронзобород, король Вариан Ринн решил
+                        даровать возможность провинившимся дворянам и различным
+                        организациям заслужить расположение короны и сюзеренство
+                        над землями,
+                        что будут возвращены в стан королевства.
+                    </p>
+                </li>
+                <li class="story__faction-card col-md-6 col-sm-12">
+                    <img class="story__faction-card-img" src="img/story__horde.png" alt="Орда">
+                    <h3 class="story__faction-card-title">
+                        Орда
+                    </h3>
+                    <p class="story__faction-card-descr section__descr">
+                        Тралл узнал о том,
+                        что отколовшиеся от его Орды орки,
+                        не отказавшиеся от дара крови демонов,
+                        и не желающие устраивать мирную жизнь в новых землях,
+                        присягнули чёрному дракону Нефариану.
+                        Те, кто именуют себя "Тёмная Орда" помогают дракону
+                        в осуществлении подлых планов.
+                        Молодой вождь не позволит ренегатам порочить честь Орды,
+                        и уж тем более угрожать его государству,
+                        и поэтому он отправил славных чемпионов своего воинства
+                        в Бесплодные Земли, где те объединились с эльфами.
+                        Их цель - покарать Ренда и его хозяина,
+                        и восстановить справедливость.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="delimiter container-fluid">
+        <div class="delimiter__container flex">
+            <p class="delimiter__descr section__descr">
+                Сегодня судьба Красногорья и Каз'Модана лежит на ваших плечах.
+                Соберите единомышленников и выступите на поле битвы!
+            </p>
+            <p class="delimiter__descr delimiter__descr-2 section__descr">
+                ... грядет война Черной Горы
+            </p>
+        </div>
+    </section>
+    <section class="section__protagonists container-fluid">
+        <div class="protagonists__container">
+            <div class="protagonists__head flex">
+                <h2 class="protagonists__head-title section__title">
+                    ФРАКЦИИ ПРОТАГОНИСТОВ
+                </h2>
+                <p class="protagonists__head-descr section__descr">
+                    В "Войне Черной Горы" вам придется не только сражаться,
+                    но и планировать стратегию,
+                    продвигаясь по точкам на карте и укрепляя свои отряды.
+                    Соберите самых верных союзников и отправляйтесь на базу
+                    своей фракции,
+                    чтобы оттуда начать поход к Черной Горе!
+                </p>
+            </div>
+            <ul class="protagonists__list row list-reset">
+                <li class="protagonists__item flex col-lg-3 col-md-6 col-sm-6">
+                    <div class="protagonists__head-item protagonists__head-horde">
+                        <h3 class="protagonists__head-item-title">
+                            Авангард Орды
+                        </h3>
+                        <p class="protagonists__head-item-descr section__descr">
+                            <b>Фракционный бонус:</b> "Выживание"
+                        </p>
+                    </div>
+                    <h4 class="protagonists__item-title section__descr">
+                        <b>База:</b> Каргат.
+                    </h4>
+                    <div class="protagonists__text flex">
+                        <p class="protagonists__item-descr section__descr">
+                            Чемпионы Орды, посланные Траллом в бесплодные земли,
+                            чтобы перехватить
+                            инициативу и атаковать Тёмную Орду на упреждение.
+                        </p>
+                        <button onclick="window.open('https://noblegarden.net/')" class="protagonists__item-btn btn-reset btn">
+                            ДИСКОРД ФРАКЦИИ
+                        </button>
+                    </div>
+                </li>
+                <li class="protagonists__item flex col-lg-3 col-md-6 col-sm-6">
+                    <div class="protagonists__head-item protagonists__head-alliance">
+                        <h3 class="protagonists__head-item-title">
+                            Армия Альянса
+                        </h3>
+                        <p class="protagonists__head-item-descr section__descr">
+                            <b>Фракционный бонус:</b> "Сырье"
+                        </p>
+                    </div>
+                    <h4 class="protagonists__item-title section__descr">
+                        <b>База:</b> графство Редмонд.
+                    </h4>
+                    <div class="protagonists__text flex">
+                        <p class="protagonists__item-descr section__descr">
+                            Именно графство Редмонд было решено сделать
+                            военным центром операции в Пылающих Степях.
+                            Сюда могут отправиться военные сил Штормграда и паладины.
+                        </p>
+                        <button onclick="window.open('https://discord.gg/tfPCaxTT')" class="protagonists__item-btn btn-reset btn">
+                            ДИСКОРД ФРАКЦИИ
+                        </button>
+                    </div>
+                </li>
+                <li class="protagonists__item flex col-lg-3 col-md-6 col-sm-6">
+                    <div class="protagonists__head-item protagonists__head-mages">
+                        <h3 class="protagonists__head-item-title">
+                            Союзные силы
+                        </h3>
+                        <p class="protagonists__head-item-descr section__descr">
+                            <b>Фракционный бонус:</b> "Кристаллы маны"
+                        </p>
+                    </div>
+                    <h4 class="protagonists__item-title section__descr">
+                        <b>База:</b> Баронство Реденхельм.
+                    </h4>
+                    <div class="protagonists__text flex">
+                        <p class="protagonists__item-descr section__descr">
+                            Союзные силы, присоединившиеся к кампании против Чёрной Горы.
+                            Представлены в основном силами Кирин-Тора.
+                            Подойдет персонажам-магам и магическим гильдиям.
+                        </p>
+                        <button onclick="window.open('https://noblegarden.net/')" class="protagonists__item-btn btn-reset btn">
+                            ДИСКОРД ФРАКЦИИ
+                        </button>
+                    </div>
+                </li>
+                <li class="protagonists__item flex col-lg-3 col-md-6 col-sm-6">
+                    <div class="protagonists__head-item protagonists__head-nobles">
+                        <h3 class="protagonists__head-item-title">
+                            Дворяне и наёмники
+                        </h3>
+                        <p class="protagonists__head-item-descr section__descr">
+                            <b>Фракционный бонус:</b> "Снаряжение"
+                        </p>
+                    </div>
+                    <h4 class="protagonists__item-title section__descr">
+                        <b>База:</b> Крепость Каменных Стражей.
+                    </h4>
+                    <div class="protagonists__text flex">
+                        <p class="protagonists__item-descr section__descr">
+                            Вольные наёмники и дворяне,
+                            объединившиеся чтобы получить или вернуть милость короны.
+                            Подойдет любым игрокам и гильдям.
+                        </p>
+                        <button onclick="window.open('https://discord.gg/mA4pg67kar')" class="protagonists__item-btn btn-reset btn">
+                            ДИСКОРД ФРАКЦИИ
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section__antagonists container-fluid">
+        <div class="antagonists__container">
+            <div class="antagonists__head flex">
+                <h2 class="antagonists__head-title section__title">
+                    ФРАКЦИИ АНТАГОНИСТОВ
+                </h2>
+                <p class="antagonists__head-descr section__descr">
+                  Тайные силы долгие годы скрывались под тлеющими глубинами Черной Горы,
+                  готовясь уничтожить процветающие земли Красногорья и Каз'Модана.
+                  Теперь они готовы обрушить угрозу на мир людей и завоевать славу на поле битвы.
+
+                  <br><br>Не упустите свой шанс стать истинным воином тьмы.
+                </p>
+            </div>
+            <ul class="antagonists__list list-reset row">
+                <li class="antagonists__item flex col-md-6 col-sm-12">
+                    <img class="antagonists__item-icon" src="img/antagonists__horde.png" alt="Тёмная Орда">
+                    <div class="antagonists__item-text flex">
+                        <h3 class="antagonists__item-title">
+                            Тёмная Орда
+                        </h3>
+                        <p class="antagonists__item-descr section__descr">
+                            Станьте на сторону Тёмной Орды Ренда Чернорука,
+                            которая пришла на эти земли с планами завоевания и
+                            порабощения. Вы сможете забыть о милосердии и стать
+                            ужасающими воинами,
+                            которым вскоре позавидуют все противники.
+                        </p>
+                        <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="antagonists__item-btn btn-2 btn-reset btn">
+                            ЗАНЯТЬ ФРАКЦИЮ
+                        </button>
+                    </div>
+                </li>
+                <li class="antagonists__item flex col-md-6 col-sm-12">
+                    <img class="antagonists__item-icon" src="img/antagonists__dwarves.png" alt="Клан Чёрного Железа">
+                    <div class="antagonists__item-text flex">
+                        <h3 class="antagonists__item-title">
+                            Клан Чёрного Железа
+                        </h3>
+                        <p class="antagonists__item-descr section__descr">
+                            Выступите за Клан Чёрного Железа - другую сторону этой медали раздора.
+                            Вступите в ряды клана, постигайте их зловещие тайны и
+                            проявите свою кровожадность
+                            в каждом взмахе молота и каждом волшебном заклинании.
+                        </p>
+                        <button onclick="window.open('https://discord.gg/KeN6af8Tcm')" class="antagonists__item-btn btn-reset btn">
+                            ДИСКОРД ФРАКЦИИ
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section__lakeshire container-fluid">
+        <div class="lakeshire__container">
+            <div class="lakeshire__head flex">
+                <p class="lakeshire__head-descr lakeshire__head-descr-2 section__descr">
+                    Ролевой центр
+                </p>
+                <h2 class="lakeshire__head-title section__title">
+                    ПРИОЗЕРЬЕ
+                </h2>
+                <p class="lakeshire__head-descr section__descr">
+                    В "Войне Черной Горы" есть место и для тех,
+                    кто предпочитает более мирные занятия.
+                    Вы сможете погрузиться в жизнь рп-центра Приозерье,
+                    где вас ждет игра в стиле "ситикрафт".
+
+                    <br><br>Здесь вы сможете управлять экономикой,
+                    решать местные проблемы и создавать свое процветающее
+                    поселение.
+                </p>
+            </div>
+            <div class="lakeshire__content row">
+                <div class="lakeshire__content-text col-md-6 col-sm-12">
+                    <p class="lakeshire__content-descr section__descr">
+                      В своё время это был излюбленный городок путешественников и торговцев.
+                      Но долгие годы войн и заговоров не пощадили Приозерье.
+                      <br><br>Расположенный на задворках королевства город едва ли мог
+                      расчитывать
+                      на военную помощь из столицы, погрязшей в интригах Катраны. Жители Приозерья выживали как могли, чудом сберегая свои фермерские традиции и отбивая нападения орков, гноллов и бандитов силами местного ополчения,
+                      немногочисленных армейских отрядов и дворянских гвардий.
+                    </p>
+                    <button onclick="window.open('https://noblegarden.net/')" class="lakeshire__content-btn btn btn-reset">
+                        УЗНАТЬ ПОДРОБНЕЕ
+                    </button>
+                </div>
+                <iframe class="lakeshire__content-video col-md-6 col-sm-12" src="https://www.youtube.com/embed/BCr7y4SLhck?si=zeKYKiWRKxBVrhyH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="section__roles container-fluid">
+        <div class="roles__container">
+            <div class="roles__head flex">
+                <h2 class="roles__head-title section__title">
+                    СЮЖЕТНЫЕ РОЛИ
+                </h2>
+                <p class="roles__head-descr section__descr">
+                    Хотите не просто влиться в игру,
+                    а получить роль с важной секретной сюжетной задачей?
+                    Или, возможно, хотите придумать такую задачу для своего
+                    существующего персонажа?
+                    Всё возможно!
+                </p>
+            </div>
+            <ul class="roles__list row list-reset">
+                <li class="roles__item col-md-2 col-sm-4 flex">
+                    <img class="roles__item-img" src="img/roles__dealer.png" alt="Столичный делец">
+                    <p class="roles__item-name section__descr">
+                        Столичный делец
+                    </p>
+                    <button class="roles__item-btn dealer__btn btn btn-reset">
+                        ПОДРОБНЕЕ
+                    </button>
+                    <!-- Модальное окно -->
+                    <div class="modal dealer">
+                        <div class="modal__content dealer__content">
+                            <button class="modal__close-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                    <line x1="1.35355" y1="0.646447" x2="12.188" y2="11.4809" stroke="white"/>
+                                    <line x1="0.646447" y1="11.4809" x2="11.4809" y2="0.646481" stroke="white"/>
+                                </svg>
+                            </button>
+                            <!-- Контент модального окна -->
+                            <div class="flex modal__in">
+                                <img class="roles__item-img modal__img" src="img/roles__dealer.png" alt="Столичный делец">
+                                <div class="flex modal__text">
+                                    <h3 class="modal__title dealer__title">Столичный делец</h3>
+                                    <p class="modal__description dealer__description">
+                                        Прибывший в город совершенно недавно,
+                                        он ищет куда пристроить зработанные кровью и потом деньги.
+                                        Поговаривают, что некогда он держал в столице собственные
+                                        заведения. И они имели успех. Что же привело
+                                        штормградского толстосума
+                                        в один из дальних уголков королевства?
+                                    </p>
+                                    <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="modal__btn btn btn-reset">
+                                        ЗАНЯТЬ РОЛЬ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="roles__item col-md-2 col-sm-4 flex">
+                    <img class="roles__item-img" src="img/roles__favorite.png" alt="Любимец выпивох">
+                    <p class="roles__item-name section__descr">
+                        Любимец выпивох
+                    </p>
+                    <button class="roles__item-btn favorite__btn btn btn-reset">
+                        ПОДРОБНЕЕ
+                    </button>
+                    <!-- Модальное окно -->
+                    <div class="modal favorite">
+                        <div class="modal__content favorite__content">
+                            <button class="modal__close-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                    <line x1="1.35355" y1="0.646447" x2="12.188" y2="11.4809" stroke="white"/>
+                                    <line x1="0.646447" y1="11.4809" x2="11.4809" y2="0.646481" stroke="white"/>
+                                </svg>
+                            </button>
+                            <!-- Контент модального окна -->
+                            <div class="flex modal__in">
+                                <img class="roles__item-img modal__img" src="img/roles__favorite.png" alt="Любимец выпивох">
+                                <div class="flex modal__text">
+                                    <h3 class="modal__title favorite__title">Любимец выпивох</h3>
+                                    <p class="modal__description favorite__description">
+                                        Все в городе знают,
+                                        у кого лёгкая рука и после чьей выпивки никогда не болит
+                                        голова. Это вы! Стоит вам появиться за барной стойкой,
+                                        как от посетителей нет отбоя. Вы знаете все последние
+                                        новости и сплетни, вам исповедуются чаще, чем самым
+                                        почтенным жрецам в соборах. Но что-то гнетёт вас в
+                                        последнее время. Что-то, что не даёт спать ночами и то,
+                                        с чем вы не можете поделиться ни с кем. Неужели в городе
+                                        нет никого,
+                                        кто мог бы помочь вам с вашей... проблемой?
+                                    </p>
+                                    <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="modal__btn btn btn-reset">
+                                        ЗАНЯТЬ РОЛЬ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="roles__item col-md-2 col-sm-4 flex">
+                    <img class="roles__item-img" src="img/roles__priest.png" alt="Приозёрский жрец">
+                    <p class="roles__item-name section__descr">
+                        Приозёрский жрец
+                    </p>
+                    <button class="roles__item-btn priest__btn btn btn-reset">
+                        ПОДРОБНЕЕ
+                    </button>
+                    <!-- Модальное окно -->
+                    <div class="modal priest">
+                        <div class="modal__content priest__content">
+                            <button class="modal__close-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                    <line x1="1.35355" y1="0.646447" x2="12.188" y2="11.4809" stroke="white"/>
+                                    <line x1="0.646447" y1="11.4809" x2="11.4809" y2="0.646481" stroke="white"/>
+                                </svg>
+                            </button>
+                            <!-- Контент модального окна -->
+                            <div class="flex modal__in">
+                                <img class="roles__item-img modal__img" src="img/roles__priest.png" alt="Приозёрский жрец">
+                                <div class="flex modal__text">
+                                    <h3 class="modal__title priest__title">Приозёрский жрец</h3>
+                                    <p class="modal__description priest__description">
+                                        Вы - молодой жрец приозёрского собора. Казалось,
+                                        только недавно вы сполна открыли для себя  таинства
+                                        Святого Света. Но благодаря вашему наставнику,
+                                        благодаря вашей непоколебимой вере, вы точно знаете,
+                                        что нужно делать для того, чтобы Святой Свет одерил
+                                        эти земли своей милостью и защищал его жителей от грядущих
+                                        бед. Вы непоколебимы, уверены, вера ваша крепка.
+                                        И рука ваша не дрогнет.
+                                    </p>
+                                    <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="modal__btn btn btn-reset">
+                                        ЗАНЯТЬ РОЛЬ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="roles__item col-md-2 col-sm-6 flex">
+                    <img class="roles__item-img" src="img/roles__farmer.png" alt="Фермер">
+                    <p class="roles__item-name section__descr">
+                        Фермер
+                    </p>
+                    <button class="roles__item-btn farmer__btn btn btn-reset">
+                        ПОДРОБНЕЕ
+                    </button>
+                    <!-- Модальное окно -->
+                    <div class="modal farmer">
+                        <div class="modal__content farmer__content">
+                            <button class="modal__close-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                    <line x1="1.35355" y1="0.646447" x2="12.188" y2="11.4809" stroke="white"/>
+                                    <line x1="0.646447" y1="11.4809" x2="11.4809" y2="0.646481" stroke="white"/>
+                                </svg>
+                            </button>
+                            <!-- Контент модального окна -->
+                            <div class="flex modal__in">
+                                <img class="roles__item-img modal__img" src="img/roles__farmer.png" alt="Фермер">
+                                <div class="flex modal__text">
+                                    <h3 class="modal__title farmer__title">Фермер</h3>
+                                    <p class="modal__description farmer__description">
+                                        В городе вас знают и ценят за труд и доброту -
+                                        вы никогда не оставите в беде друга, не закроете
+                                        дверь перед незнакомцем, нуждающимся в помощи.
+                                        Вы упорно, изо дня в день трудитесь, чтобы ваш ферма
+                                        приносила и вам, и городу как можно больше продовольствия.
+                                        Но даже так, с вами случилось несчастье.
+                                        Ваша возлюбленная покинула вас, укатив в столицу с
+                                        проезжающим мимо купцом. Соседи судачат за вашими спинами,
+                                        провожая сочувствующими взглядами.
+                                        Но вы точно знаете, вы измените всё...
+                                    </p>
+                                    <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="modal__btn btn btn-reset">
+                                        ЗАНЯТЬ РОЛЬ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="roles__item col-md-2 col-sm-6 flex">
+                    <img class="roles__item-img" src="img/roles__guard.png" alt="Рядовой стражник">
+                    <p class="roles__item-name section__descr">
+                        Рядовой стражник
+                    </p>
+                    <button class="roles__item-btn guard__btn btn btn-reset">
+                        ПОДРОБНЕЕ
+                    </button>
+                    <!-- Модальное окно -->
+                    <div class="modal guard">
+                        <div class="modal__content guard__content">
+                            <button class="modal__close-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                                    <line x1="1.35355" y1="0.646447" x2="12.188" y2="11.4809" stroke="white"/>
+                                    <line x1="0.646447" y1="11.4809" x2="11.4809" y2="0.646481" stroke="white"/>
+                                </svg>
+                            </button>
+                            <!-- Контент модального окна -->
+                            <div class="flex modal__in">
+                                <img class="roles__item-img modal__img" src="img/roles__guard.png" alt="Рядовой стражник">
+                                <div class="flex modal__text">
+                                    <h3 class="modal__title guard__title">Рядовой стражник</h3>
+                                    <p class="modal__description guard__description">
+                                        Вы росли на легендах о славных воинах,
+                                        защищающих королевство. О доблестных рыцарях  и
+                                        блюстителях спокойствия городских жителей.
+                                        Вы мечтали примерить на себя доспех, взять в руки меч
+                                        и встать на защиту своего дома. Так и случилось.
+                                        Удача улыбнулась вам и теперь вы - стражник Приозёрья.
+                                        О вас ещё не сложили легенды и барды не воспевают
+                                        ваши подвиги в трактирах, но,
+                                        возможно, всему своё время?
+                                    </p>
+                                    <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="modal__btn btn btn-reset">
+                                        ЗАНЯТЬ РОЛЬ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="delimiter-2 container-fluid">
+      <div class="delimiter-2__container flex">
+          <p class="delimiter-2__descr section__descr">
+              Хотите активно влиять на мир вокруг,
+              создавая интересные конфликты и достигая секретных целей?
+              Занимайте одну из существующих ролей или предложите свою!
+          </p>
+          <button onclick="window.open('https://noblegarden.net/privatemessages/1')" class="delimiter-2__btn btn btn-reset">
+              ЗАНЯТЬ РОЛЬ
+          </button>
+      </div>
+    </section>
+    <section class="section__advantages container-fluid">
+        <h1 class="advantages__title section__title">
+            ВАС ЖДУТ
+        </h1>
+        <ul class="advantages__list row">
+            <li class="advantages__item col-md-4 col-sm-6 flex">
+                <img class="advantages__item-img" src="img/advantages__dfate.png" alt="Кости Судьбы">
+                <h2 class="advantages__item-title">
+                    Кости Судьбы: РОПы
+                </h2>
+                <div class="advantages__item-content flex">
+                    <p class="advantages__item-descr section__descr">
+                        Как часто в бою на ивенте или в рейде вам хотелось использовать уникальную способность,
+                        которую сложно описать через систему характеристик и бросков?
+                        <br><br>Теперь такие навыки не останутся только ролевым описанием
+                        на ивенте!
+                        <br><br>Каждый персонаж сможет получать дополнительные навыки,
+                        которые он сможет использовать в боях с ведущими по системе "Кости Судьбы"!
+                    </p>
+                    <button onclick="window.open('https://noblegarden.net/')" class="advantages__item-btn btn btn-reset">
+                        ОПИСАНИЕ СИСТЕМЫ (СКОРО)
+                    </button>
+                </div>
+            </li>
+            <li class="advantages__item col-md-4 col-sm-6 flex">
+                <img class="advantages__item-img" src="img/advantages__pfactions.png" alt="Усиление фракций">
+                <h2 class="advantages__item-title">
+                    Усиления фракций
+                </h2>
+                <div class="advantages__item-content flex">
+                    <p class="advantages__item-descr section__descr">
+                        Враг силён и коварен,
+                        а некоторые вражеские поселения поначалу
+                        могут показаться неприступными.
+                        Но так будет ровно до тех пор, пока фаша
+                        фракция не откроет требуемое усиление!
+                        Осадные орудия, усиленные юниты,
+                        волшебные артефакты - эти и многие другие
+                        усиления доступны по мере развития фракций.
+                        <br><br>Примерный срок старта системы
+                        развития фракций: со стартом полигона
+                    </p>
+                    <button onclick="window.open('https://noblegarden.net/')" class="advantages__item-btn btn btn-reset">
+                        ОПИСАНИЕ СИСТЕМЫ (СКОРО)
+                    </button>
+                </div>
+            </li>
+            <li class="advantages__item col-md-4 col-sm-6 flex">
+                <img class="advantages__item-img" src="img/advantages__economic.png" alt="Экономика">
+                <h2 class="advantages__item-title">
+                    Экономика: Точки Интереса (POI)
+                </h2>
+                <div class="advantages__item-content flex">
+                    <p class="advantages__item-descr section__descr">
+                        Точки инетерса можно выкупать, осваивать,
+                        захватывать и продавать.
+                        Чем больше экономических точек интереса принадлежит
+                        персонажу, гильдии или фракции - тем выше их доходы,
+                        влияние на мир и возможности в игре на полигоне.
+
+                        <br><br>Примерный срок старта системы точек интереса:
+                        со стартом полигона
+                    </p>
+                    <button onclick="window.open('https://noblegarden.net/')" class="advantages__item-btn btn btn-reset">
+                        ОПИСАНИЕ СИСТЕМЫ (СКОРО)
+                    </button>
+                </div>
+            </li>
+          </ul>
+    </section>
+    <section class="section__adventure container-fluid">
+        <div class="adventure__container">
+            <div class="adventure__content flex">
+                <h2 class="adventure__title section__title">
+                    ПРИКЛЮЧЕНИЯ ЖДУТ!
+                </h2>
+                <p class="adventure__descr section__descr">
+                  Присоединяйтесь к захватывающему приключению
+                  в нашей новой ролевой игре -
+                  "Война Черной Горы"! Забудьте о мирной жизни,
+                  когда время неумолимо ведет вас навстречу
+                  опасностям и неизведанному.
+
+                  <br><br><b>Следите за новостями на нашем сайте и канале
+                  дискорд, и до встречи у подножия Черной Горы!</b>
+                </p>
+                <button onclick="window.open('https://noblegarden.net/article/149')" class="adventure__btn btn btn-reset">
+                    НАЧАТЬ ИГРАТЬ
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer container-fluid">
+        <div class="footer__container flex">
+            <a href="https://noblegarden.net/">
+                <img class="footer__logo" src="img/footer__logo.png" alt="Логотип">
+            </a>
+            <div class="footer__links flex">
+                <a class="footer__link footer__link-discord" href="https://discord.gg/paz9QJ8">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                        <path d="M40.1459 11.1039C37.3751 9.81227 34.3751 8.87477 31.2501 8.3331C31.2227 8.33223 31.1954 8.33737 31.1702 8.34817C31.145 8.35897 31.1225 8.37516 31.1042 8.3956C30.7292 9.0831 30.2917 9.97894 30.0001 10.6664C26.6855 10.1664 23.3147 10.1664 20.0001 10.6664C19.7084 9.9581 19.2709 9.0831 18.8751 8.3956C18.8542 8.35394 18.7917 8.3331 18.7292 8.3331C15.6042 8.87477 12.6251 9.81227 9.83341 11.1039C9.81258 11.1039 9.79175 11.1248 9.77092 11.1456C4.10425 19.6248 2.54175 27.8748 3.31258 36.0414C3.31258 36.0831 3.33341 36.1248 3.37508 36.1456C7.12508 38.8956 10.7292 40.5623 14.2917 41.6664C14.3542 41.6873 14.4167 41.6664 14.4376 41.6248C15.2709 40.4789 16.0209 39.2706 16.6667 37.9998C16.7084 37.9164 16.6667 37.8331 16.5834 37.8123C15.3959 37.3539 14.2709 36.8123 13.1667 36.1873C13.0834 36.1456 13.0834 36.0206 13.1459 35.9581C13.3751 35.7914 13.6042 35.6039 13.8334 35.4373C13.8751 35.3956 13.9376 35.3956 13.9792 35.4164C21.1459 38.6873 28.8751 38.6873 35.9584 35.4164C36.0001 35.3956 36.0626 35.3956 36.1042 35.4373C36.3334 35.6248 36.5626 35.7914 36.7917 35.9789C36.8751 36.0414 36.8751 36.1664 36.7709 36.2081C35.6876 36.8539 34.5417 37.3748 33.3542 37.8331C33.2709 37.8539 33.2501 37.9581 33.2709 38.0206C33.9376 39.2914 34.6876 40.4998 35.5001 41.6456C35.5626 41.6664 35.6251 41.6873 35.6876 41.6664C39.2709 40.5623 42.8751 38.8956 46.6251 36.1456C46.6667 36.1248 46.6876 36.0831 46.6876 36.0414C47.6042 26.6039 45.1667 18.4164 40.2292 11.1456C40.2084 11.1248 40.1876 11.1039 40.1459 11.1039ZM17.7501 31.0623C15.6042 31.0623 13.8126 29.0831 13.8126 26.6456C13.8126 24.2081 15.5626 22.2289 17.7501 22.2289C19.9584 22.2289 21.7084 24.2289 21.6876 26.6456C21.6876 29.0831 19.9376 31.0623 17.7501 31.0623ZM32.2709 31.0623C30.1251 31.0623 28.3334 29.0831 28.3334 26.6456C28.3334 24.2081 30.0834 22.2289 32.2709 22.2289C34.4792 22.2289 36.2292 24.2289 36.2084 26.6456C36.2084 29.0831 34.4792 31.0623 32.2709 31.0623Z" fill="white"/>
+                    </svg>
+                </a>
+                <a class="footer__link footer__link-vk" href="https://vk.com/noblegardenrp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                        <path d="M44.7979 38.2939H40.0458C38.2479 38.2939 37.7062 36.8376 34.4833 33.6126C31.6667 30.898 30.4771 30.5605 29.7646 30.5605C28.7792 30.5605 28.5104 30.8314 28.5104 32.1876V36.4626C28.5104 37.6189 28.1354 38.296 25.1146 38.296C22.1839 38.0991 19.342 37.2088 16.8229 35.6984C14.3037 34.188 12.1794 32.1007 10.625 29.6085C6.93414 25.0148 4.36606 19.6232 3.125 13.8626C3.125 13.1501 3.39583 12.5043 4.75417 12.5043H9.50417C10.725 12.5043 11.1646 13.048 11.6438 14.3043C13.95 21.0918 17.8854 26.996 19.4833 26.996C20.0958 26.996 20.3625 26.7251 20.3625 25.198V18.2064C20.1604 15.0168 18.4667 14.748 18.4667 13.5939C18.4881 13.2894 18.6274 13.0052 18.8549 12.8018C19.0825 12.5983 19.3804 12.4916 19.6854 12.5043H27.1521C28.1729 12.5043 28.5104 13.0126 28.5104 14.2335V23.671C28.5104 24.6897 28.9479 25.0272 29.2563 25.0272C29.8687 25.0272 30.3396 24.6897 31.4625 23.5689C33.8695 20.6334 35.836 17.363 37.3 13.8605C37.4499 13.44 37.7331 13.0801 38.1067 12.8356C38.4802 12.5911 38.9234 12.4755 39.3687 12.5064H44.1208C45.5458 12.5064 45.8479 13.2189 45.5458 14.2355C43.8174 18.1072 41.6788 21.7824 39.1667 25.198C38.6542 25.9793 38.45 26.3855 39.1667 27.3022C39.6375 28.0147 41.3042 29.4064 42.4229 30.7293C44.0521 32.3543 45.4042 34.2335 46.4271 36.2918C46.8354 37.6168 46.1542 38.2939 44.7979 38.2939Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>

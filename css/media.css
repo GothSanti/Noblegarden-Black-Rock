@@ -1,0 +1,441 @@
+@media (max-width: 1280px) {
+  .container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .header__title {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  .header__title {
+    font-size: 40px;
+  }
+
+  .section__descr {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+
+  .section__title {
+    font-size: 36px;
+  }
+
+  .story__faction-card-img {
+    margin-bottom: 10px;
+  }
+
+  .story__faction-card-title {
+    margin-bottom: 10px;
+  }
+
+  .protagonists__head-item-title {
+    font-size: 16px;
+  }
+
+  .protagonists__head {
+    margin-bottom: 0px;
+  }
+
+  .protagonists__list {
+    --bs-gutter-y: 70px;
+  }
+
+  .protagonists__item-btn {
+    font-size: 14px;
+  }
+
+  .antagonists__item-title {
+    font-size: 16px;
+  }
+
+  .antagonists__item-btn {
+    font-size: 14px;
+  }
+
+  .antagonists__item-icon {
+    max-width: 100px;
+    max-height: 103px;
+    margin-right: 10px;
+  }
+
+  .antagonists__item-title {
+    margin-bottom: 10px;
+  }
+
+  .antagonists__item-descr {
+    margin-bottom: 20px;
+  }
+
+  .modal__btn {
+    font-size: 12px;
+  }
+
+  .lakeshire__content-btn {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .lakeshire__content-video {
+    max-height: 265px;
+  }
+
+  .lakeshire__content {
+    min-height: 0;
+  }
+
+  .roles__item-btn {
+    font-size: 12px;
+  }
+
+  .delimiter-2__btn {
+    font-size: 14px;
+  }
+
+  .advantages__item-btn {
+    font-size: 14px;
+  }
+
+  .roles__item {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    width: 90%;
+  }
+
+  .story__head-descr {
+    width: 90%;
+  }
+
+  .section__story {
+    margin-bottom: 0px;
+  }
+
+  .delimiter__descr-2 {
+    font-size: 24px;
+  }
+
+  .delimiter__container {
+    padding: 60px 20px;
+    gap: 35px;
+  }
+
+  .story__faction {
+    --bs-gutter-x: 0px;
+  }
+
+  .story__faction-card {
+    padding-bottom: 50px;
+  }
+
+  .protagonists__head-descr {
+    width: 90%;
+  }
+
+  .antagonists__head-descr {
+    width: 90%;
+  }
+
+  .antagonists__list {
+    padding-bottom: 0px;
+  }
+
+  .antagonists__item {
+    padding-bottom: 50px;
+  }
+
+  .lakeshire__head-descr {
+    width: 90%;
+  }
+
+  .lakeshire__content {
+    flex-direction: column-reverse;
+  }
+
+  .lakeshire__content-video {
+    min-height: 265px;
+    min-width: 281px;
+    margin-bottom: 40px;
+  }
+
+  .roles__item {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .roles__item-img {
+    max-width: 167px;
+  }
+
+  .roles__list {
+    --bs-gutter-x: 4.5rem;
+    --bs-gutter-y: 2rem;
+  }
+
+  .roles__item-btn {
+    padding: 15px 40px;
+  }
+
+  .roles__head-descr {
+    width: 90%;
+  }
+
+  .delimiter-2__container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 30px;
+  }
+
+  .delimiter-2__descr {
+    width: 90%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .delimiter-2__btn {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .advantages__title {
+    margin-bottom: 30px;
+  }
+
+  .advantages__list {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .advantages__item {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+  }
+
+  .header__container {
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 85px;
+    margin-bottom: 10px;
+  }
+
+  .header__title {
+    font-size: 32px;
+  }
+
+  .header__descr {
+    text-align: left;
+  }
+
+  .btn {
+    max-width: 280px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .header__btn {
+    font-size: 20px;
+  }
+
+  .section__title {
+    font-size: 24px;
+  }
+
+  .story__head {
+    margin-bottom: 40px;
+  }
+
+  .story__head-descr {
+    width: 100%;
+    text-align: left;
+  }
+
+  .story__faction-card-img {
+    margin-bottom: 20px;
+  }
+
+  .delimiter__container {
+    padding: 60px 0px;
+    gap: 35px;
+    margin-bottom: 60px;
+  }
+
+  .protagonists__container {
+    padding-bottom: 100px;
+  }
+
+  .protagonists__head-descr {
+    width: 100%;
+    text-align: left;
+  }
+
+  .protagonists__list {
+    --bs-gutter-y: 35px;
+    --bs-gutter-x: 0;
+  }
+
+  .antagonists__container {
+    margin-bottom: 40px;
+  }
+
+  .antagonists__head {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .antagonists__head-descr {
+    width: 100%;
+    text-align: left;
+  }
+
+  .antagonists__item {
+    padding: 0;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .antagonists__item-text {
+    align-items: center;
+  }
+
+  .antagonists__item-icon {
+    max-width: 112px;
+    max-height: 115px;
+    margin-bottom: 20px;
+  }
+
+  .antagonists__item-btn {
+    max-width: 280px;
+  }
+
+  .lakeshire__head {
+    margin-bottom: 0px;
+  }
+
+  .lakeshire__head-descr {
+    display: none;
+  }
+
+  .lakeshire__head-descr-2 {
+    display: inline;
+    padding-bottom: 8px;
+  }
+
+  .lakeshire__content-video {
+    min-height: 144px;
+  }
+
+  .lakeshire__content-descr {
+    padding-bottom: 30px;
+  }
+
+  .lakeshire__content {
+    margin-bottom: 70px;
+  }
+
+  .roles__head-descr {
+    text-align: left;
+    width: 100%;
+  }
+
+  .roles__head {
+    margin-bottom: 30px;
+  }
+
+  .roles__item {
+    gap: 15px;
+  }
+
+  .roles__container {
+    padding-bottom: 45px;
+  }
+
+  .delimiter-2__container {
+    padding: 60px 20px;
+    margin-bottom: 45px;
+  }
+
+  .delimiter-2__descr {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .advantages__item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section__advantages {
+    padding-bottom: 12px;
+  }
+
+  .adventure__descr {
+    width: 100%;
+    text-align: left;
+  }
+
+  .adventure__content {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+
+  .footer__logo {
+    max-width: 160px;
+    padding-bottom: 20px;
+  }
+
+  .footer__container {
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .modal__in {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 13px;
+  }
+
+  .modal__text {
+    align-items: center;
+  }
+
+  .modal__title,
+  .modal__description {
+    text-align: center;
+  }
+}
